@@ -1,0 +1,131 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #ffbcbc;
+    color: #030303;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    color: #000000;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+header nav ul li a {
+    color:  #ffbcbc;
+    color: #000000;
+    text-decoration: none;
+}
+
+.msg
+{
+    
+justify-content: center;
+align-items: center;
+display:flex;
+flex-direction: column;
+background-color: rgb(15, 14, 14); 
+background-color: rgba(0,0,0, 0.4); 
+color: rgb(11, 11, 11);
+font-weight: bold;
+border: 3px solid #ffbcbc;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 70%;
+padding: 20px;
+text-align: center;
+
+}
+.msg :first-child{
+    font-size: 35px;
+
+
+}
+.msg :nth-child(2)
+{
+    font-size:20px;
+}
+
+
+.hero {
+    background-image: url(sandwich.PNG);
+    background-repeat: no-repeat;
+    height:50vh;
+    width: 100%;
+    background-size:100%;
+    background-size: max(1200px,100vw);
+    backdrop-filter: blur(1px); 
+    background-position: center;
+    background-size: cover;
+    background-color:  #ffbcbc;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 40px;
+}
+
+
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #ffbcbc;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+    color: #040404;
+}
+
+.feature p {
+    color: #000000;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 20px 0;
+}
+.carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #ffbcbc;
+}
+
+
+.carousel img {
+    display: inline-block;
+    margin-right: 10px;
+}
+ 
+   
